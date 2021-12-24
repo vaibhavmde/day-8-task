@@ -1,0 +1,61 @@
+Question 
+// Create a class Person 
+// 2.instance method(obj ref
+// greetings()
+// "Welcome to Method Greeting"
+
+
+// getFood()
+// "I would Like to Eat Pizza"
+
+
+1
+// create a static method (class)
+// displayWalk ()
+// I am static method with name Display walk 
+
+
+// create 1 obj  with ref person1-> ref
+
+// constructor should execute 
+// "I am "+Lavish
+
+
+// create another object with ref food (Omkar)
+// food.
+
+ans/code
+class Person{
+Constructor(name)
+{
+    this.name=name;
+ console.log("I am "+this.name);
+}
+greeting()
+{
+   console.log('Welcome to Method Greeting');
+}
+static displayWalk()
+{
+    console.log("I am in Static method with name Display walk");
+}
+}
+class Food{
+    Constructor()
+    {
+    }
+
+    getFood()
+    {
+        console.log("I would like to Eat Pizza");
+    }
+   
+}
+
+let Vaibhav=new Person();
+Vaibhav.Constructor("Lavish");
+Vaibhav.greeting();
+Person.displayWalk();
+let Omkar=new Food();
+Omkar.getFood();
+
